@@ -21,7 +21,7 @@ public class AdminDriver {
 	    FileWriter fw = null;
 		
 	    try {
-	        fw = new FileWriter("src/userDetails.txt", false);
+	        fw = new FileWriter("admin/userDetails.txt", false);
 	        for(Map.Entry<String, Admin> entry : admins.entrySet()) {
 	        	fw.write(entry.getKey() + ":" + entry.getValue() + "\n");
 	        }
@@ -37,7 +37,7 @@ public class AdminDriver {
     }
     public void checkData() throws IOException {
     	BufferedReader br = null;
-    	File file = new File("src/userDetails.txt");
+    	File file = new File("src/adminDetails.txt");
     	br = new BufferedReader(new FileReader(file));
     	String line = null;
     	while((line = br.readLine())!= null) {

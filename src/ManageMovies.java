@@ -147,7 +147,7 @@ public class ManageMovies{
 	@SuppressWarnings("unchecked")
 	public void removeShows() throws FileNotFoundException, IOException, ParseException{
 		Scanner sc = new Scanner(System.in);
-		System.out.println("What is the movie key you'd like to remove?");
+		System.out.println("What is the movie title you'd like to remove?");
 		key = sc.nextLine();
 		System.out.println("What is the current status of the movie?");
 		status = sc.nextLine();

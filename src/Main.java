@@ -93,7 +93,7 @@ public class Main {
 						while(flag) {
 							System.out.println(
 									"--------------------------Welcome to Admin Menu-----------------------------------");
-							System.out.println("1. View Current Movies\\n2. View Upcoming Movies\n3. Add movies \n4. Remove movies\n5. Add showtimes\n6. Remove showtimes\n7. Log Out\nChoose Option");
+							System.out.println("1. View Current Movies\n2. View Upcoming Movies\n3. Add movies \n4. Remove movies\n5. Add showtimes\n6. Remove showtimes\n7. Log Out\nChoose Option");
 							adminInput = sc.nextInt();
 							switch(adminInput) {
 								case 1:

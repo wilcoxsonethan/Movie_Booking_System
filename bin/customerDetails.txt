@@ -1,1 +1,4 @@
-ethan@gmail.com:Pass@10,1) In what city were you born?,cali,ethan,3112,5th,st,12345678,1092834576
+ethan@gmail.com:Pass@10,1) In what city were you born?,cali,ethan,3112-5th-st,12345678,1092834576
+michael@gmail.com:Pass#30,1) In what city were you born?,Lubbock,Michael,800-Broadway,12345123,8067176543
+isman@gmail.com:Pass@20,2) What is the name of your favorite pet?,Dog,Isman,800-Broadway,12345123,0987654321
+test@gmail.com:#1234Q,1) In what city were you born?,Lubbock,Test,123-abc-lane,98765432,8067178273
